@@ -13,6 +13,7 @@ A FastAPI-based application that compares two face images and determines whether
 * Upload two face images
 * Face detection and embedding extraction using InsightFace
 * Face similarity comparison using cosine similarity
+* Returns whether the faces belong to the same person
 * REST API built with FastAPI
 
 ---
@@ -35,13 +36,12 @@ The scraped data is stored in CSV format for further analysis.
 ## Project Structure
 
 ```text
-Assignment-Submission/
+Globussoft/
 │
-├── task1_face_authentication/
+├── face_recognition/
+│   ├── images/
 │
-├── task2_amazon_scraper/
-│
-├── sample_images/
+├── web_scraping/
 │
 ├── requirements.txt
 ├── README.md
@@ -55,8 +55,8 @@ Assignment-Submission/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd Assignment-Submission
+git clone https://github.com/Harsh-Burande/Globussoft_Assignment.git
+cd Globussoft
 ```
 
 Install dependencies:
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 Navigate to the Face Authentication project folder:
 
 ```bash
-cd task1_face_authentication
+cd face_recognition
 ```
 
 Start the FastAPI server:
@@ -96,7 +96,7 @@ Use the Swagger UI to test the face comparison endpoint.
 Navigate to the scraper folder:
 
 ```bash
-cd task2_amazon_scraper
+cd web_scraping
 ```
 
 Run the scraper:
@@ -111,7 +111,13 @@ The extracted product information will be saved as a CSV file.
 
 ## Sample Images
 
-Sample images for testing the Face Authentication API are included in the `sample_images` folder.
+Sample images for testing the Face Authentication API are available in:
+
+```text
+face_recognition/images/
+```
+
+These images can be used to test both matching and non-matching face comparisons.
 
 ---
 
@@ -124,3 +130,11 @@ Sample images for testing the Face Authentication API are included in the `sampl
 * Scikit-Learn
 * Selenium
 * Pandas
+
+---
+
+## Notes
+
+* Install all required dependencies using the provided `requirements.txt` file.
+* Ensure Chrome browser is installed for the Amazon scraper.
+* Sample images are included for testing the Face Authentication API.
