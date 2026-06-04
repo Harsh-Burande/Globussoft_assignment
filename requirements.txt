@@ -1,0 +1,9 @@
+fastapi
+insightface
+numpy
+pandas
+scikit-learn
+selenium
+uvicorn
+python-multipart
+opencv-python
