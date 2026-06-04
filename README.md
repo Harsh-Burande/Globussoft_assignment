@@ -39,12 +39,12 @@ The scraped data is stored in CSV format for further analysis.
 Globussoft/
 │
 ├── face_recognition/
-│   ├── images/
 │
 ├── web_scraping/
 │
 ├── requirements.txt
 ├── README.md
+├── sample_images/
 └── .gitignore
 ```
 
