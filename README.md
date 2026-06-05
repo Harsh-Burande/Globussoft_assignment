@@ -4,21 +4,7 @@
 
 This repository contains solutions for two tasks:
 
-### Task 1: Face Authentication API
-
-A FastAPI-based application that compares two face images and determines whether they belong to the same person.
-
-#### Features
-
-* Upload two face images
-* Face detection and embedding extraction using InsightFace
-* Face similarity comparison using cosine similarity
-* Returns whether the faces belong to the same person
-* REST API built with FastAPI
-
----
-
-### Task 2: Amazon Product Scraper
+### Task 1: Amazon Product Scraper
 
 A Selenium-based web scraper that extracts product information from Amazon search results.
 
@@ -30,6 +16,20 @@ A Selenium-based web scraper that extracts product information from Amazon searc
 * Product Image URL
 
 The scraped data is stored in CSV format for further analysis.
+
+---
+
+### Task 2: Face Authentication API
+
+A FastAPI-based application that compares two face images and determines whether they belong to the same person.
+
+#### Features
+
+* Upload two face images
+* Face detection and embedding extraction using InsightFace
+* Face similarity comparison using cosine similarity
+* Returns whether the faces belong to the same person
+* REST API built with FastAPI
 
 ---
 
